@@ -60,3 +60,52 @@ console.log("Full Name is: "+firstName +" "+lastName);
 // console.log(x)
 
 //conparison operator >,<,>=,<= it will return true or false
+
+// const now = 2020;
+// const ageSummy = now-1996;
+// const ageSunny = now-1994;
+// console.log(now-1994>now-1996)
+
+//string
+// const fName = 'summy';
+// const job = 'developer';
+// const birthYear = 1996;
+// const year = 2020;
+// const summy = "I'm "+fName+', a '+(year-birthYear)+' Year old '+job+' !';
+// console.log(summy); 
+
+// //template literal
+// const summyNew = `I'm ${fName}, a ${year-birthYear} years old ${job}!`
+// console.log(summyNew);
+
+// console.log(`just a regular string`);
+
+// console.log('string \n\ with \n\ multiple lines');
+
+// console.log(`string
+// with multiple line
+// using literals`);
+
+//if statement
+// let age=24;
+// if(age>=18){
+//     console.log("You are adult now")
+// }else{
+//     console.log("You are not an adult yet, please wait!");
+// }
+
+// //type conversion 
+// const inputYear = '1996';
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 18)
+
+// console.log(Number('jonas'));
+
+// console.log(String(23)); 
+
+// //type coersion
+// console.log('I am '+23+' Years old');
+// //whenever js sees a + operator it automatically convert number to string
+// console.log('23'-'10'-3);   //string to number
+// console.log('23'+'10'+3);   //number to string
+// console.log('13'*'2');
