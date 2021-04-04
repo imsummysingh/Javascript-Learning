@@ -109,3 +109,76 @@ console.log("Full Name is: "+firstName +" "+lastName);
 // console.log('23'-'10'-3);   //string to number
 // console.log('23'+'10'+3);   //number to string
 // console.log('13'*'2');
+
+//5 falsy value---0,'',undefined,null,Nan
+// console.log(Boolean(0));
+// console.log(Boolean(''));
+// console.log(Boolean(undefined));
+// console.log(Boolean({}));//empty object it is
+// console.log(Boolean(null));
+// console.log(Boolean(2));
+
+//if else scenerio for falsy value
+// const money=0;
+// if(money){
+//     console.log("Don't spend all")
+// }else{
+//     console.log("Get a Job!");
+// }//return false because of 0
+
+// let height;
+// if(height){
+//     console.log("It's true that you have height");
+// }else{
+//     console.log("Stop using Undefined, please define your height");
+// }
+
+// const fav =  prompt("what is your fav number?");
+// console.log(fav);
+
+
+//logical Operato
+// const hasDriversLicense = true; //A
+// const hasGoodVision = false;  //B
+
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasGoodVision);
+
+//switch case
+// const day = 'saturday';
+
+// switch(day){
+//     case 'monday':
+//         console.log("It's Monday");
+//         break;
+//     case 'tuesday':
+//         console.log("It's Tuesday");
+//         break;
+//     case 'wednesday':
+//         console.log("It's Wednesday");
+//         break;
+//     case 'thursday':
+//         console.log("It's Thursday");
+//         break;
+//     case 'friday':
+//         console.log("It's Friday");
+//         break;
+//     case 'saturday':
+//     case 'sunday':
+//         console.log("It's Weekend");
+//         break;
+//     default:
+//         console.log('Take a break!');
+// }
+
+//ternary operator
+
+const age = 23;
+age>=18?console.log("adult man"):console.log("you are a minor");
+
+const drink = age>=18?'wine':'water';
+console.log(drink);
+
+console.log(`I would like to drink ${age>=18?'wine':'water'}`);
