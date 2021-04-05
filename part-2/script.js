@@ -276,8 +276,8 @@
 
 //While loop
 
-let rep=0;
-while(rep<=10){
-    console.log(`Rep No: ${rep}`);
-    rep++;
-}
+// let rep=0;
+// while(rep<=10){
+//     console.log(`Rep No: ${rep}`);
+//     rep++;
+// }
