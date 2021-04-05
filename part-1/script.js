@@ -175,10 +175,10 @@ console.log("Full Name is: "+firstName +" "+lastName);
 
 //ternary operator
 
-const age = 23;
-age>=18?console.log("adult man"):console.log("you are a minor");
+// const age = 23;
+// age>=18?console.log("adult man"):console.log("you are a minor");
 
-const drink = age>=18?'wine':'water';
-console.log(drink);
+// const drink = age>=18?'wine':'water';
+// console.log(drink);
 
-console.log(`I would like to drink ${age>=18?'wine':'water'}`);
+// console.log(`I would like to drink ${age>=18?'wine':'water'}`);
