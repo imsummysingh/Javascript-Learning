@@ -7,26 +7,26 @@ console.log("Last Name is: "+lastName);
 console.log("Full Name is: "+firstName +" "+lastName);
 */
 
-// let jsBool = true;
-// console.log(jsBool);
+//let jsBool = true;
+//console.log(jsBool);
 
-// console.log(typeof(jsBool));
-// console.log(typeof jsBool);
-// console.log(typeof true);
-// console.log(typeof 3);
-// console.log(typeof(3));
-// console.log(typeof NaN);
-// console.log(typeof(NaN));
-// console.log(typeof null);
-// console.log(typeof(null));
-// console.log(typeof string);
-// console.log(typeof 'summy');
-// let jsIs;
-// console.log(typeof jsIs);
-// console.log(typeof 3.14);
-// console.log(typeof '');
-// console.log(typeof(NaN));
-// console.log(typeof null)
+// console.log(typeof(jsBool)); //boolean   
+// console.log(typeof jsBool);  //boolean
+// console.log(typeof true);    //boolean
+// console.log(typeof 3);       //number
+// console.log(typeof(3));      //number
+// console.log(typeof NaN);    //number
+// console.log(typeof(NaN));   //number
+// console.log(typeof null);   //object
+// console.log(typeof(null));  //object
+//console.log(typeof string);     //undefined
+//console.log(typeof 'summy');    //string
+//let jsIs;   
+// console.log(typeof jsIs);       //undefined
+// console.log(typeof 3.14);       //number
+// console.log(typeof '');             //string
+// console.log(typeof(NaN));           //number
+// console.log(typeof null)            //object
 
 // const year=2020
 // const ageSummy = year-1996;
@@ -64,7 +64,7 @@ console.log("Full Name is: "+firstName +" "+lastName);
 // const now = 2020;
 // const ageSummy = now-1996;
 // const ageSunny = now-1994;
-// console.log(now-1994>now-1996)
+// console.log(now-1994>now-1996)       //true
 
 //string
 // const fName = 'summy';
@@ -99,7 +99,7 @@ console.log("Full Name is: "+firstName +" "+lastName);
 // console.log(Number(inputYear), inputYear);
 // console.log(Number(inputYear) + 18)
 
-// console.log(Number('jonas'));
+// console.log(Number('jonas'));       //NAN
 
 // console.log(String(23)); 
 
@@ -111,12 +111,13 @@ console.log("Full Name is: "+firstName +" "+lastName);
 // console.log('13'*'2');
 
 //5 falsy value---0,'',undefined,null,Nan
-// console.log(Boolean(0));
-// console.log(Boolean(''));
-// console.log(Boolean(undefined));
-// console.log(Boolean({}));//empty object it is
-// console.log(Boolean(null));
-// console.log(Boolean(2));
+// console.log(Boolean(0));        //false
+// console.log(Boolean(''));       //false
+// console.log(Boolean(undefined));        //false
+// console.log(Boolean({}));//empty object it is   //true
+// console.log(Boolean(null));         //false
+// console.log(Boolean(2));            //true
+// console.log(Boolean(NaN));          //false
 
 //if else scenerio for falsy value
 // const money=0;
