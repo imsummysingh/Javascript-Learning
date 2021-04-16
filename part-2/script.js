@@ -50,7 +50,7 @@
 // const result = calcAge1(1996);
 // console.log(result);
 
-// //function expression
+//function expression
 
 // const calcAge2 = function (birthYear){
 //     return 2021-birthYear;
@@ -117,10 +117,10 @@
 // friends.pop();
 // console.log(friends);
 
-// friends.unshift("sunny");
+// friends.unshift("sunny");       //add at start
 // console.log(friends);
 
-// friends.shift();
+// friends.shift();                //remove from start
 // console.log(friends);
 
 // console.log(friends.indexOf('summy'));
@@ -139,9 +139,9 @@
 //     'software developer',
 //     2020-1996
 // ];//cannot provide fname, lname,job and all details in array and that is why object come and help
+// console.log(summyArray);
 
-
-//key is also called properties, so we can sy this object summy have 6 properties
+//key is also called properties, so we can say this object summy have 6 properties
 
 //object literal syntax and easiest way to write
 // const summy = {
@@ -185,10 +185,10 @@
 //     //     return 2020-this.birthYear;
 //     // }
 
-//     calcAge: function(){
-//         this.age = 2020-this.birthYear;
-//         return this.age;
-//     }
+//     // calcAge: function(){
+//     //     this.age = 2020-this.birthYear;
+//     //     return this.age;
+//     // }
 // };
 
 // // console.log(summy.calcAge(1996));
