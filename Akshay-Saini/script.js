@@ -137,3 +137,60 @@ printMyName();  //invoking the function
 // }
 
 // const betterFunction = doSomeMagic(getData,300)  
+
+//////////////////////////////////////////////////
+//Event Bubbling & Capturing
+
+//event bubbling
+// document.querySelector("#grandparent").addEventListener('click',()=>{
+//     console.log('Grand parent Clicked');
+// });
+
+// document.querySelector("#parent").addEventListener('click',()=>{
+//     console.log('Parent Clicked');
+// });
+
+// document.querySelector("#child").addEventListener('click',()=>{
+//     console.log('Child Clicked');
+// });
+
+//event capturing
+
+// document.querySelector("#grandparent").addEventListener('click',()=>{
+//     console.log('Grand parent Clicked');
+// },true);
+
+// document.querySelector("#parent").addEventListener('click',()=>{
+//     console.log('Parent Clicked');
+// },true);
+
+// document.querySelector("#child").addEventListener('click',()=>{
+//     console.log('Child Clicked');
+// },true);
+
+//another ex
+// document.querySelector("#grandparent").addEventListener('click',()=>{
+//     console.log('Grand parent Clicked');
+// },true);    //capturing
+
+// document.querySelector("#parent").addEventListener('click',()=>{
+//     console.log('Parent Clicked');
+// },false);   //bubbling
+
+// document.querySelector("#child").addEventListener('click',()=>{
+//     console.log('Child Clicked');
+// },true);    //capturing
+
+//stop propagation
+// document.querySelector("#grandparent").addEventListener('click',()=>{
+//     console.log('Grand parent Clicked');
+// },false);    
+
+// document.querySelector("#parent").addEventListener('click',(e)=>{
+//     console.log('Parent Clicked');
+//     e.stopPropagation();
+// },false);  
+
+// document.querySelector("#child").addEventListener('click',()=>{
+//     console.log('Child Clicked');
+// },false);   
