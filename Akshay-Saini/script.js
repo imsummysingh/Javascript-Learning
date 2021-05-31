@@ -194,3 +194,16 @@ printMyName();  //invoking the function
 // document.querySelector("#child").addEventListener('click',()=>{
 //     console.log('Child Clicked');
 // },false);   
+
+
+//////////////////////////////////////////////////////////////////////
+//event delegation
+
+document.querySelector("#category").addEventListener('click',(e)=>{
+    // console.log("category parent clicked");
+    // console.log(e.target);
+    console.log(e.target.id);
+    if(e.target.tagName=='LI'){
+        window.location.href="/"+e.target.id;
+    }    
+});
